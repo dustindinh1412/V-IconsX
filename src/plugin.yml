@@ -1,0 +1,11 @@
+name: V-IconsX
+main: com.dustin.viconsx.VIconX
+version: BETA-1.0.0
+api-version: 1.13
+authors: [DustinDinh]
+description: V-IconsX bring you almost 3000+ default item icons of Minecraft Vannilla
+commands:
+  viconsx:
+    description: Your description
+    aliases: [ vicons, viconsx, icon, icons ]
+    usage: "Usage: /<command>"
