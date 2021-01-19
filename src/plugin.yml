@@ -9,3 +9,7 @@ commands:
     description: Your description
     aliases: [ vicons, viconsx, icon, icons ]
     usage: "Usage: /<command>"
+  setExp:
+    description: Your description
+    aliases: [ vicons, viconsx, icon, icons ]
+    usage: "Usage: /<command>"
