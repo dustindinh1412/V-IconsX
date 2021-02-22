@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="V-IconsX:jar">
+    <output-path>$USER_HOME$/Desktop/SeperiorSkyblock Setup/plugins</output-path>
+    <root id="archive" name="V-IconsX.jar">
+      <element id="module-output" name="V-IconsX" />
+    </root>
+  </artifact>
+</component>

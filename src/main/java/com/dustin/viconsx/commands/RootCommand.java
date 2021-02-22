@@ -5,6 +5,7 @@ import com.dustin.viconsx.utils.VFormatter;
 import com.dustin.viconsx.utils.configs.Configurations;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
 public class RootCommand extends VCommand {
 
@@ -29,6 +30,7 @@ public class RootCommand extends VCommand {
                     final String name = VFormatter.colorize(Configurations.get().get("config").getString("name"));
                     sender.sendMessage("§cFuck you "+name);
                 }
+                Player p = (Player) sender;
 
                 break;
             case 2:

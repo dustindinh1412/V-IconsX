@@ -14,7 +14,7 @@ public class VCommand implements CommandExecutor {
         VIconX.getInstance().getCommand(command).setExecutor(this);
     }
     @Override
-    public boolean onCommand(CommandSender sender, Command cmd, String lavel, String[] args) {
+    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
       return true;
     };
 }

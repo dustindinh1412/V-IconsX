@@ -2,7 +2,6 @@ package com.dustin.viconsx.guis;
 
 import com.dustin.viconsx.utils.gui.BasePanel;
 import com.dustin.viconsx.utils.gui.PanelItem;
-import com.dustin.viconsx.utils.gui.PanelSlotType;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 
@@ -29,5 +28,4 @@ public class IconsPanel extends BasePanel {
 
         this.setPanelItem(helloButton,border);
     }
-
 }

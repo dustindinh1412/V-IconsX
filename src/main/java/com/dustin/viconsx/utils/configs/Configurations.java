@@ -1,6 +1,7 @@
 package com.dustin.viconsx.utils.configs;
 
 import com.dustin.viconsx.VIconX;
+import com.dustin.viconsx.utils.VUtils;
 import com.sun.istack.internal.NotNull;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.ConfigurationSection;
@@ -63,6 +64,7 @@ public class Configurations {
     public void update(String configurationKeyName) {
         try {
             config.get(configurationKeyName).load(configFile.get(configurationKeyName));
+            VUtils.logToConsle();
         } catch (IOException | InvalidConfigurationException e) {
             e.printStackTrace();
         }
